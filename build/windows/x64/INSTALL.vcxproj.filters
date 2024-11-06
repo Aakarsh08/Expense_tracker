@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\gupta\Desktop\flutter_projects\expense_tracker\build\windows\x64\CMakeFiles\28b17655754ecd723ae0a25f9c720e28\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{822A73E0-1FA8-31F1-98EB-8AA43FB9A2F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

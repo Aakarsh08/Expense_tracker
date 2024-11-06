@@ -1,0 +1,10 @@
+^C:\USERS\GUPTA\DESKTOP\FLUTTER_PROJECTS\EXPENSE_TRACKER\BUILD\WINDOWS\X64\CMAKEFILES\28B17655754ECD723AE0A25F9C720E28\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/gupta/Desktop/flutter_projects/expense_tracker/windows -BC:/Users/gupta/Desktop/flutter_projects/expense_tracker/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/gupta/Desktop/flutter_projects/expense_tracker/build/windows/x64/expense_tracker.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

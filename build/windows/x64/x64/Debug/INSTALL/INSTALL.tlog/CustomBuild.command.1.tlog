@@ -1,0 +1,10 @@
+^C:\USERS\GUPTA\DESKTOP\FLUTTER_PROJECTS\EXPENSE_TRACKER\BUILD\WINDOWS\X64\CMAKEFILES\28B17655754ECD723AE0A25F9C720E28\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
